@@ -1,6 +1,53 @@
-// [] <- list
-// {} <- array 
+class Header extends React.Component {
+    render() {
+        return <p>This is from Header</p>;
+    }
+}
 
+const jsx = (
+    <div>
+        <h1>Title</h1>
+        <Header/>
+    </div>
+);
+
+ReactDOM.render(jsx, document.getElementById('app'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 console.log('App.js is running');
 
 const app = {
@@ -56,9 +103,6 @@ const reRender = () => {
 const approot = document.getElementById('app');
 reRender();
 
-
-
-
 //user object
 /*const user = {
     name: 'Austin',
@@ -79,5 +123,5 @@ const templateTwo = (
         {(user.age && user.age >= 18) && <p>Age: {user.age}</p>}
         {getLocation(user.location)}
     </div>
-);*/
-
+);
+*/
