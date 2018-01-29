@@ -57,10 +57,7 @@ const reset = () => {
     renderCounterApp();
 }
 
-
 const approot = document.getElementById('app');
-
-
 
 const renderCounterApp = () => {
     const templateTwo = (
