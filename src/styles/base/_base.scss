@@ -1,3 +1,5 @@
+// BEM styling - Block, Element, Modifier
+
 html {
     font-size: 62.5%;
 }
@@ -6,4 +8,12 @@ body {
     background: $dark-blue;
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
 }
